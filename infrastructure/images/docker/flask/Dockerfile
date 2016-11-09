@@ -8,4 +8,4 @@ ENV file_name=hello_world.py
 
 ADD ${file_name} /${file_name}
 
-CMD /${file_name}
+CMD python3 /${file_name}
